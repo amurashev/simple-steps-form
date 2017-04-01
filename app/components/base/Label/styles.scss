@@ -1,0 +1,11 @@
+@import 'config';
+
+
+.label {
+	cursor: pointer;
+	pointer-events: none;
+	color: $font-color;
+	text-transform: uppercase;
+}
+
+

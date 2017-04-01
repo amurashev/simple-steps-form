@@ -1,0 +1,6 @@
+
+export const STEP_NEXT = 'STEP_NEXT';
+export const STEP_BACK = 'STEP_BACK';
+
+export const FORM_CHANGE_FIELD = 'FORM_CHANGE_FIELD';
+export const FORM_VALIDATION_ERROR = 'FORM_VALIDATION_ERROR';

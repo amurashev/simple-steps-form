@@ -1,0 +1,21 @@
+@import './config';
+
+.button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    word-break: break-word;
+    font-size: $font-size;
+    line-height: 2rem;
+    padding: $padding;
+    background: none;
+    letter-spacing: 0.12rem;
+    border: none;
+
+    color: $active-color;
+}

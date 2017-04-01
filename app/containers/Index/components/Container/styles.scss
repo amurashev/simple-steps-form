@@ -1,0 +1,29 @@
+@import '../../../../styles/variables';
+
+
+.box {
+	width: 35rem;
+	height: 50rem;
+	margin: 3rem auto;
+	background-color: white;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.formHeader {
+	color: $color-primary;
+	text-align: center;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+
+
+.formBox {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+

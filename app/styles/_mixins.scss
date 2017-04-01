@@ -1,0 +1,26 @@
+
+
+@mixin btnGroup($parentSelector, $childSelector) {
+
+	#{$parentSelector} {
+		display: flex;
+		align-items: flex-start;
+
+		& > #{$childSelector}:not(:first-child):not(:last-child) {
+			border-radius: 0;
+		}
+		& > #{$childSelector}:first-child:not(:last-child){
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+		}
+		& > #{$childSelector}:last-child:not(:first-child) {
+			border-bottom-left-radius: 0;
+			border-top-left-radius: 0;
+		}
+
+	}
+
+	#{$childSelector} + #{$childSelector}{
+		margin-left: -1px;
+	}
+}

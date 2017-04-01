@@ -1,0 +1,16 @@
+@import '../../../../styles/variables';
+
+
+.birthDayBox {
+	display: flex;
+}
+
+.birthDayBoxInner {
+	flex: 1;
+	padding: 1rem;
+	border: 0.1rem solid $color-line;
+	border-radius: $border-radius;
+	text-align: center;
+}
+
+@include btnGroup('.birthDayBox', '.birthDayBoxInner');

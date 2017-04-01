@@ -1,0 +1,41 @@
+@import './config';
+
+
+.select {
+    position: relative;
+    border: $border-size solid $border-color;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+
+.innerBox {
+    display: flex;
+}
+
+.valueBox {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    color: $font-color;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2.2rem;
+    color: $color-active;
+}
+
+.listBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    top: 100%;
+    margin-top: -$border-size;
+    margin-left: -$border-size;
+    margin-right: -$border-size;
+}

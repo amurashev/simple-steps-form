@@ -1,0 +1,77 @@
+@import './colors';
+@import './resolutions';
+@import './mixins';
+
+
+$color-grey-light: $palette-grey-300 !default;
+$color-grey: $palette-grey-400 !default;
+$color-grey-dark: $palette-grey-600 !default;
+$color-black: $palette-grey-900 !default;
+
+$color-primary: $palette-light-blue-600;
+$color-error: $palette-red-700;
+$color-success: $palette-light-green-300;
+$color-warning: $palette-yellow-700;
+
+$color-line: $color-grey-light;
+
+
+$unit: 1rem !default;
+
+/*
+    Fonts
+*/
+
+$font-size: 1.4 * $unit !default;
+
+$font-size-s: 1.2 * $unit !default;
+$font-size-m: $font-size !default;
+$font-size-l: 1.6 * $unit !default;
+
+$font-weight-thin: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 500 !default;
+$font-weight-bold: 700 !default;
+
+/*
+    Sizing
+*/
+
+
+
+
+
+//-- Shadows
+$shadow-key-umbra-opacity: 0.2 !default;
+$shadow-key-penumbra-opacity: 0.14 !default;
+$box-shadow: rgba(0, 0, 0, $shadow-key-umbra-opacity) 0px 1px 6px, rgba(0, 0, 0, $shadow-key-penumbra-opacity) 0px 1px 4px;
+
+
+
+/*
+    Indexes
+*/
+
+$z-index-highest: 300 !default;
+$z-index-higher: 200 !default;
+$z-index-high: 100 !default;
+$z-index-normal: 1 !default;
+$z-index-low: -100 !default;
+$z-index-lower: -200 !default;
+
+
+
+
+/*
+    Other
+*/
+
+$border-radius: 0.3rem;
+$border-size: 0.1rem;
+
+
+
+
+
+
+

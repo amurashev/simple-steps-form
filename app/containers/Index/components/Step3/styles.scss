@@ -1,0 +1,23 @@
+@import '../../../../styles/variables';
+
+
+.step3Box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.successCircle {
+	font-size: 18rem;
+	color: $color-success;
+}
+
+
+.goToDashboardButton {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	border: $border-size solid $color-primary;
+	border-radius: $border-radius;
+}

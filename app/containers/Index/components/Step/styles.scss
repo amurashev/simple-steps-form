@@ -1,0 +1,51 @@
+@import '../../../../styles/variables';
+
+.form {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	opacity: 0.01;
+	transition: opacity .5s ease-in;
+
+	&.isActive {
+		opacity: 1;
+	}
+}
+
+.formContent {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.stepsButtons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: $border-size solid $color-line
+}
+
+
+.backButtonBox {
+	flex: 1;
+}
+
+
+.nextButtonBox {
+	text-align: right;
+	flex: 1;
+}
+
+
+
+.nextButtonInner {
+	color: $color-primary;
+	display: flex;
+	align-items: center;
+}
+
+.backButton {
+	color: $color-grey;
+}

@@ -1,0 +1,23 @@
+@import 'config';
+
+.formField {
+	margin-bottom: 1.4rem;
+}
+
+.labelBox {
+	margin-bottom: 0.3rem;
+}
+
+
+.childrenBox {
+
+}
+
+.errorBox {
+	margin-top: 0.2rem;
+	color: $color-error;
+}
+
+.isError {
+	color: $color-error;
+}

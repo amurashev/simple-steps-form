@@ -1,0 +1,26 @@
+@import 'config';
+
+.items {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item {
+    padding: 1rem;
+    border: 0.1rem solid $border-color;
+    border-radius: $border-radius;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    color: $font-color;
+    text-transform: uppercase;
+
+    &.isActive {
+        background-color: $background-active;
+        color: white;
+    }
+}
+
+
+
+@include btnGroup('.items', '.item');
